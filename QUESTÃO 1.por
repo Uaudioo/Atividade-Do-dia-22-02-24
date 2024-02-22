@@ -4,14 +4,14 @@ funcao inicio(){
   inteiro a,b,c
   real soma
 
-
-escreva("Insira o Primeiro Número:")
+//pedindo nÃºmeros
+escreva("Insira o Primeiro NÃºmero:")
 leia(a)
 
-escreva("Insira o Segundo Número:")
+escreva("Insira o Segundo NÃºmero:")
 leia(b)
 
-escreva("Insira o Terceiro Número: ")
+escreva("Insira o Terceiro NÃºmero: ")
 leia(c)
 
 //Soma
@@ -21,14 +21,14 @@ soma = a+b
 limpa()
 escreva("====================RESULTADOS====================")
 escreva("\nSoma: ",soma)
-escreva("\nPrimeiro Número: ",a)
-escreva("\nSegundo Número: ",b)
-escreva("\nTerceiro Número: ",c)
+escreva("\nPrimeiro NÃºmero: ",a)
+escreva("\nSegundo NÃºmero: ",b)
+escreva("\nTerceiro NÃºmero: ",c)
 se (soma>c){
-  escreva("\nSoma Maior Que o Terceiro Número!!")
+  escreva("\nSoma Maior Que o Terceiro NÃºmero!!")
 }
 senao{
-  escreva("\nSoma Menor Que o Terceiro Número!!")
+  escreva("\nSoma Menor Que o Terceiro NÃºmero!!")
 }
 
 
