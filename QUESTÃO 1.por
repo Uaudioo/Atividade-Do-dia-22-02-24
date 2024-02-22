@@ -20,10 +20,10 @@ soma = a+b
 //exibindo
 limpa()
 escreva("====================RESULTADOS====================")
-escreva("\nSoma: ",soma)
 escreva("\nPrimeiro Número: ",a)
 escreva("\nSegundo Número: ",b)
 escreva("\nTerceiro Número: ",c)
+escreva("\nSoma: ",soma)
 se (soma>c){
   escreva("\nSoma Maior Que o Terceiro Número!!")
 }
