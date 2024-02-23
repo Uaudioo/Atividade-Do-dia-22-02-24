@@ -1,50 +1,49 @@
 programa
 {
 	
-	funcao inicio()
-	{
-		
+		//BY WENDELL GABRIEL C.JESUS
+funcao inicio()
+{
+//Declarando Va
+cadeia nome
+real preco,qnt
+real desc1=2.0
+real desc2=3.0
+real desc3=5.0
+real valortotal=0,desconto
+//Pedindo Dados
+escreva("Qual o Nome Do Produto? ")
+leia(nome)
+escreva("Quantidade Do Produto: ")
+leia(qnt)
+escreva("Qua o Preço Do Produto? ")
+leia(preco)
 
-     //Declarando Va
-		
-     cadeia nome
-     real qnt, precoun,total, desc, precofi
 
-     //Lendo nome e preço
 
-	escreva ("Digite o nome do Produto: ")
-	leia (nome)
+//Cal
+se(qnt==5){
+	valortotal=qnt*preco 
+	valortotal=valortotal-desc1
+}
 	
-	escreva ("Digite a quantidade do produto: ")
-	leia (qnt)
-	
-	escreva ("Qual o preço do Produto? ")
-	leia (precoun)
-
-     //exibindo 
-
-	total = (qnt * precoun)
-
-	se (qnt <=5) {
-	desc = precoun * 0.02
-	precofi = total - desc
-	escreva ("Preço Final: ")
-	escreva (precofi)
-	}
-		
-     senao se ((qnt >5) e (qnt <=10)) {
-	desc = precoun *0.03
-	precofi= total - desc
-	escreva ("Preço Final: ")
-	escreva (precofi)
-	}
-
-	senao {
-	desc = precoun * 0.05
-	precofi = total - desc
-	escreva ("Preço Final: ")
-	escreva (precofi)
-		}
-	}
+se(qnt>5 e qnt <=10){
+	valortotal=qnt*preco
+	valortotal=valortotal-desc2
 }
 
+se(qnt>10){
+	valortotal=qnt*preco
+	valortotal=valortotal-desc3
+	
+}
+//BY WENDELL GABRIEL C.JESUS
+
+
+//Exibindo	
+escreva("===============================================================================")
+escreva("\nValor A Ser Pago: ",valortotal)
+//BY WENDELL GABRIEL C.JESUS
+	
+	}
+}
