@@ -1,14 +1,14 @@
 programa{
-
+//BY WENDELL GABRIEL C.JESUS
 funcao inicio(){
 
 inteiro a,b,c,soma
 
-//Pedindo Número
-escreva("Insira o Primeiro Número: ")
+//Pedindo NÃºmero
+escreva("Insira o Primeiro NÃºmero: ")
 leia(a)
 
-escreva("Insira o Segundo Número: ")
+escreva("Insira o Segundo NÃºmero: ")
 leia(b)
 
 //calculo
