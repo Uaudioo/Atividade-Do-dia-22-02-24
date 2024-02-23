@@ -1,0 +1,41 @@
+programa{
+
+funcao inicio(){
+inteiro a,b,cal=0
+cadeia soma
+
+		//BY WENDELL GABRIEL C.JESUS
+escreva("Insira o primeiro Número: ")
+leia(a)
+
+escreva("Insira o Segundo Número:  ")
+leia(b)
+escreva("Insira A Operação Desejada: ")
+leia(soma)
+
+se(soma== "+"){
+	cal= a+b
+	
+}
+se(soma== "-"){
+	cal=a-b
+}
+se (soma=="*"){
+	cal=a*b
+}
+se(soma=="/"){
+	cal=a/b
+}
+//Exibindo
+limpa()
+escreva("=================================")
+escreva("\nResultado Da Operação: ",cal)
+escreva("\n=================================")
+
+	
+}
+
+
+
+	
+}
