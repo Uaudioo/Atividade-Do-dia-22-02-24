@@ -22,7 +22,7 @@ leia(preco)
 
 
 //Cal
-se(qnt==5){
+se(qnt<=5){
 	valortotal=qnt*preco 
 	valortotal=valortotal-desc1
 }
