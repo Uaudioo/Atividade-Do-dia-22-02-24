@@ -10,8 +10,7 @@ real dc1 = 10.00,dc2=20.00,dc3=30.00,dc4=40.00,preco=0,codigo
 escreva("======================================TABELA==================================")
 escreva("\nCd1-Disco Verde \tR$10,00")
 escreva("\nCd2-Disco Azul \t\tR$20,00")
-escreva("\ncd3
--Disco Amarelo \tR$30,00")
+escreva("\ncd3-Disco Amarelo \tR$30,00")
 escreva("\nCd4-Disco Vermelho \tR$40,00")
 escreva("\n================================================================================")
 
