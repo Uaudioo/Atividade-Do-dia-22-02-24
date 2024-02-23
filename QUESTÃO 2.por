@@ -1,7 +1,8 @@
 programa{
   funcao inicio(){
+//BY WENDELL GABRIEL C.JESUS
 
-  //Declarando Vari·veis
+  //Declarando Vari√°veis
   cadeia nome,sexo,estadoCivil,tempoCasada,opcao,eCasada
   inteiro idade
   //pedindo dados
@@ -31,7 +32,7 @@ programa{
   
   
   //Exibindo Dados
-  escreva("====================DADOS DO USU¡RIO====================")
+  escreva("====================DADOS DO USU√ÅRIO====================")
   escreva("\nNome: ",nome)
   escreva("\nIdade: ",idade)
   escreva("\nSexo: ",sexo)
