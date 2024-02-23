@@ -15,7 +15,7 @@ escreva("\nCd4-Disco Vermelho \tR$40,00")
 escreva("\n================================================================================")
 
 //escolhendo disco
-
+//BY WENDELL GABRIEL C.JESUS
 escreva("\nInsira o Código Do Disco:")
 leia(codigo)
 se(codigo==1){
@@ -34,4 +34,3 @@ se(codigo==4){
 escreva("Total a Pagar R$: ",preco)
 }
 }
-//BY WENDELL GABRIEL C.JESUS
