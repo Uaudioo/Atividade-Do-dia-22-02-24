@@ -3,7 +3,7 @@ funcao inicio(){
  //variaveis
   inteiro a,b,c
   real soma
-
+//BY WENDELL GABRIEL C.JESUS
 //pedindo números
 escreva("Insira o Primeiro Número:")
 leia(a)
