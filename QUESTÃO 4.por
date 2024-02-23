@@ -1,53 +1,65 @@
-programa {
+programa
+{
+//=========WENDELL GABRIEL C.JESUS=======	
+	funcao inicio()
+	{
+
+//Declarando Va
+real maca=1.80,valorFinal2=0
+real maca5=1.50
+real morango=2.50
+real morango5=2.20 ,valorFinal1=0
+real desc=0.10
+real valorTotal
+//quantidade
+real qntmo,qntma
+
+//Pedindo Inf
+escreva("Quantos Kg De Morango Deseja? ")
+leia(qntmo)
+
+escreva("Quantos Kg De Maçã Deseja? ")
+leia(qntma)
+
+//Soma
+
+se(morango<=5){
+valorFinal1= qntmo*morango
+
 	
-funcao inicio() {
-		
-	//DEclarando variaveis
-		
-     real morango = 2.50
-	real morango5 = 2.20
-	real maca = 1.80
-	real maca5 = 1.50
-	real desc = 0.1
-		
-	real morangoqnt,macaqnt
-
-	real valorFinal
-
-     //Solicitando dados
-		
-	escreva("Insira quantos Kg de morangos deseja: ")
-	 leia(morangoqnt)
-		
-	escreva("Insira quantos Kg de Maçã deseja:  ")
-      leia(macaqnt)
-		
-	real morangoValor,macaValor
-
-     //Aplicando se e senao
+}
+se(morango>5){
+	valorFinal1= morango5*qntmo
+}
+se(morango>8){
+	valorFinal1=morango5*qntmo
 	
-	se (morangoqnt <= 5) {
-		morangoValor = morangoqnt * morango
-	} 
-	senao {
-		morangoValor= morangoqnt * morango5
-	}
-		
-	se (macaqnt <= 5) {
-		macaValor = macaqnt * maca
-	}
-	senao {
-		macaValor = macaqnt * maca5
-		}
-		valorFinal = morangoValor + macaValor
-		
-	se (morangoqnt + macaqnt > 8 ou valorFinal > 25) {
-		valorFinal = valorFinal - (valorFinal * desc)
-		}
-
-          //Exibindo dados
-		
-		escreva("Valor Total R$: ", valorFinal)
-	}
 }
 
+
+se(maca<=5){
+	valorFinal2= qntma*maca
+}
+se(maca>5){
+	valorFinal2= qntma*maca5
+}
+se(maca>8){
+	valorFinal2= qntma*maca5
+	valorFinal2= valorFinal2-desc
+}
+
+
+valorTotal=valorFinal1+valorFinal2
+
+//Exibindo 
+escreva("===============================================")
+escreva("\nValor Morango R$: ",valorFinal1)
+escreva("\nValor Maçã R$: ",valorFinal2)
+escreva("\nValor Total R$: ",valorTotal)
+
+
+
+
+
+	}
+}
