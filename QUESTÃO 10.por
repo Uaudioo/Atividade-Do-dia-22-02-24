@@ -34,7 +34,7 @@ se(tipo =="A" e litros>25){
 	precoFinal=alcool*litros
 	precoFinal=precoFinal-desc4
 }
-
+escreva("==================================================")
 //Exibindo
 escreva("Preço Final R$: ",precoFinal)
 
