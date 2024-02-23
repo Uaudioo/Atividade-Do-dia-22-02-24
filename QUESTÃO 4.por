@@ -52,6 +52,7 @@ se(maca>8){
 valorTotal=valorFinal1+valorFinal2
 
 //Exibindo 
+limpa()
 escreva("===============================================")
 escreva("\nValor Morango R$: ",valorFinal1)
 escreva("\nValor Maçã R$: ",valorFinal2)
