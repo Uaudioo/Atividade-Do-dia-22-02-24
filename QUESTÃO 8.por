@@ -1,46 +1,38 @@
-programa {
-	
-	funcao inicio() {
+programa{
 
-	     //Declarando variaveis
-		
-		inteiro operacao
+//BY WENDELL GABRIEL C.JESUS
+funcao inicio(){
 
-          //Exibindo opções pro comprador
-		
-		escreva ("===Tabela de preço dos CDS===")
-		escreva ("\n [1] Verde 		R$ 10,00")
-		escreva ("\n [2] Azul 		R$ 20,00")
-		escreva ("\n [3] Amarelo 		R$ 30,00")
-		escreva ("\n [4] Vermelho 		R$ 40,00")
+//Declarndo Va
+real dc1 = 10.00,dc2=20.00,dc3=30.00,dc4=40.00,preco=0,codigo
 
-          //Solicitando escolha
-        
-		escreva ("\nInsira O Código Da Cor Desejada: ")
-		leia(operacao)
+//Tabela
+escreva("======================================TABELA==================================")
+escreva("\nCd1-Disco Verde \tR$10,00")
+escreva("\nCd2-Disco Azul \t\tR$20,00")
+escreva("\ncd3
+-Disco Amarelo \tR$30,00")
+escreva("\nCd4-Disco Vermelho \tR$40,00")
+escreva("\n================================================================================")
 
-          // Operação
+//escolhendo disco
 
-		escolha(operacao) {
-		
-		caso 1:
-		escreva ("CD Verde 		R$ 10,00")
-		pare
-		
-		caso 2:
-		escreva ("CD Azul 		R$ 20,00")
-		pare
-		
-		caso 3:
-		escreva ("CD Amarelo 		R$ 30,00")
-		pare
-		
-		caso 4:
-		escreva ("CD Vermelho 		R$ 40,00")
-		pare
-		
-		caso contrario:
-			escreva ("Opção inválida")
-		}
-	} 
-
+escreva("\nInsira o Código Do Disco:")
+leia(codigo)
+se(codigo==1){
+	preco=dc1
+}
+se(codigo==2){
+	preco=dc2
+}
+se(codigo==3){
+	preco=dc3
+}
+se(codigo==4){
+	preco=dc4
+}
+//Exibindo
+escreva("Total a Pagar R$: ",preco)
+}
+}
+//BY WENDELL GABRIEL C.JESUS
