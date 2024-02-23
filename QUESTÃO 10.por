@@ -36,7 +36,7 @@ se(tipo =="A" e litros>25){
 }
 escreva("==================================================")
 //Exibindo
-escreva("Preço Final R$: ",precoFinal)
+escreva("\nPreço Final R$: ",precoFinal)
 
 
 
